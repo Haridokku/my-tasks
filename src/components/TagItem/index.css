@@ -1,0 +1,18 @@
+.listItem {
+  list-style-type: none;
+  margin: 5px;
+}
+.tagBtn {
+  color: #f8f8f8;
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 10px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+}
+.active {
+  background-color: #f3aa4e;
+  border: none;
+}

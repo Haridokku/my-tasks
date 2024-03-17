@@ -1,0 +1,26 @@
+.listItem {
+  list-style-type: none;
+  margin-bottom: 5px;
+  background-color: #323f4b;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.taskHeading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-left: 30px;
+}
+.taskBtn {
+  color: #000000;
+  background-color: #f3aa4e;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 8px 4px 8px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 30px;
+}

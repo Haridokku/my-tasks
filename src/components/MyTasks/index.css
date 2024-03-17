@@ -1,0 +1,76 @@
+.appContainer {
+  display: flex;
+  background-color: #131213;
+  height: 100vh;
+  padding: 30px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+}
+.head {
+  color: #f3aa4e;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.taskLabel {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.inputText {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.selectContainer {
+  width: 300px;
+  padding: 10px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+.addBtn {
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #f3aa4e;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.tagsAndTasksContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.tagsHeading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.unorderedList {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.noTasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskContainer {
+  width: 100%;
+}
