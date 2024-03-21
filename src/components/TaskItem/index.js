@@ -6,9 +6,7 @@ const TaskItem = props => {
   return (
     <li className="listItem">
       <p className="taskHeading">{task}</p>
-      <button type="button" className="taskBtn">
-        {type}
-      </button>
+      <p className="taskType">{type}</p>
     </li>
   )
 }
